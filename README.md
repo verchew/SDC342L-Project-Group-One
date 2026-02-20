@@ -12,10 +12,35 @@ Some areas of focus addressed in this course to provide experiences that are dir
   Source code control - using GitHub as a source code repository to control changes and get feedback on completed code
   Retrospective - reflection at the end of a project with respect to what went well, what went poorly, and ways to improve in future software projects
 
-Week 1 - This week the focus will be on creating a project plan and repository in github that we can use throughout the course to make sure we're staying on track with the development of our course project.
-    Week 1 Reading Material: 
-Practical PHP 7, MySQL 8, and MariaDB Website Databases, 2e
-  Chapter 1: Create and Test a Database and Table
-  Chapter 2: Create Web Pages That Interact with Users
+Reading Material: 
+  Practical PHP 7, MySQL 8, and MariaDB Website Databases, 2e
   Using Checklists to Organize Software Development Processes - https://www.infoq.com/articles/checklists-software-processes/
   How to Start a HUGE Software Project?  https://youtu.be/4DKbHMceJBo
+
+Week 1 - This week the focus will be on creating a project plan and repository in github that we can use throughout the course to make sure we're staying on track with the development of our course project.
+  Created a web application project plan.
+  Created a repository in GitHub.
+
+Week 2 -  Creating the Database and Application Framework
+  Use a team project plan to create a web application.
+  Provide team status updates based on project plan execution.
+  Review team project execution and identify lessons learned.
+  Create a database and tables using phpMyAdmin.
+  Share code files with a team in a GitHub repository.
+  Review and provide feedback for team code files stored in a GitHub repository.
+  Modify and commit code modifications to a team GitHub repository.
+    
+Week 3: Representing the Database in PHP Objects
+  Create classes to represent database tables.
+  Develop a PHP Connection to a database using a PHP object.
+  Execute CRUD (Create, Read, Update, Delete) operations through a PHP class.
+
+Week 4: Add Site Security
+  Goal: Implement web application security in three forms: HTTPS, Authentication, and Authorization.
+  Authorization: Configured role-based access to ensure only specific users (like Admins) can modify information via the Update action.
+  Authentication: Set up secure login credentials, including standardized complexity requirements (e.g., P@ssword1234) for test        accounts.
+  Successfully resolved primary key and foreign key constraint issues to ensure data integrity across the system.
+
+Week 5: Allow Users to Upload Files
+  Goal: Enable file upload functionality to allow users to attach relevant documentation or images to their support complaints.
+  Upload, manipulate, and display image files.
